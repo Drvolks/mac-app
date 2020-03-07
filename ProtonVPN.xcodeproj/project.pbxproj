@@ -1830,7 +1830,6 @@
 					};
 					E15B754C20FA83CB0022C406 = {
 						CreatedOnToolsVersion = 9.4.1;
-						DevelopmentTeam = J6S6Q257EK;
 						ProvisioningStyle = Automatic;
 						TestTargetID = EED534801EEC112000013607;
 					};
@@ -1839,7 +1838,6 @@
 					};
 					EEB404C61F77F639006CF513 = {
 						CreatedOnToolsVersion = 9.0;
-						DevelopmentTeam = J6S6Q257EK;
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -2581,7 +2579,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = J6S6Q257EK;
+				DEVELOPMENT_TEAM = 654X66AK24;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ProtonVPNUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2608,7 +2606,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = J6S6Q257EK;
+				DEVELOPMENT_TEAM = 654X66AK24;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ProtonVPNUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2688,11 +2686,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDebug;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ProtonVPN/ProtonVPN.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = J6S6Q257EK;
+				DEVELOPMENT_TEAM = 654X66AK24;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2707,10 +2705,10 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS";
-				PRODUCT_BUNDLE_IDENTIFIER = ch.protonvpn.mac;
+				PRODUCT_BUNDLE_IDENTIFIER = massawippi.protonvpn.mac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "ProtonVPN Mac Development PP";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "TLS_PIN_DISABLE DEBUG";
 				SWIFT_OBJC_BRIDGING_HEADER = "ProtonVPN/ProtonVPN-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
@@ -2725,7 +2723,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J6S6Q257EK;
+				DEVELOPMENT_TEAM = 654X66AK24;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ProtonVPNNetworkHelper/Info.plist;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
@@ -2740,7 +2738,7 @@
 					__launchd_plist,
 					"\"$(SRCROOT)/ProtonVPNNetworkHelper/NetworkHelper-Launchd.plist\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ch.protonvpn.ProtonVPNNetworkHelper;
+				PRODUCT_BUNDLE_IDENTIFIER = massawippi.protonvpn.ProtonVPNNetworkHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -2756,7 +2754,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = J6S6Q257EK;
+				DEVELOPMENT_TEAM = 654X66AK24;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ProtonVPNStarter/Info.plist;
@@ -2765,7 +2763,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.protonvpn.ProtonVPNStarter;
+				PRODUCT_BUNDLE_IDENTIFIER = massawippi.protonvpn.ProtonVPNStarter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2786,7 +2784,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = J6S6Q257EK;
+				DEVELOPMENT_TEAM = 654X66AK24;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ProtonVPNTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2812,7 +2810,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = J6S6Q257EK;
+				DEVELOPMENT_TEAM = 654X66AK24;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ProtonVPNUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2840,7 +2838,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = J6S6Q257EK;
+				DEVELOPMENT_TEAM = 654X66AK24;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ProtonVPNTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2868,7 +2866,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = J6S6Q257EK;
+				DEVELOPMENT_TEAM = 654X66AK24;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ProtonVPNTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2892,7 +2890,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J6S6Q257EK;
+				DEVELOPMENT_TEAM = 654X66AK24;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ProtonVPNNetworkHelper/Info.plist;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
@@ -2908,7 +2906,7 @@
 					__launchd_plist,
 					"\"$(SRCROOT)/ProtonVPNNetworkHelper/NetworkHelper-Launchd.plist\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ch.protonvpn.ProtonVPNNetworkHelper;
+				PRODUCT_BUNDLE_IDENTIFIER = massawippi.protonvpn.ProtonVPNNetworkHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -2922,7 +2920,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J6S6Q257EK;
+				DEVELOPMENT_TEAM = 654X66AK24;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ProtonVPNNetworkHelper/Info.plist;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
@@ -2937,7 +2935,7 @@
 					__launchd_plist,
 					"\"$(SRCROOT)/ProtonVPNNetworkHelper/NetworkHelper-Launchd.plist\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ch.protonvpn.ProtonVPNNetworkHelper;
+				PRODUCT_BUNDLE_IDENTIFIER = massawippi.protonvpn.ProtonVPNNetworkHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -2953,7 +2951,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = J6S6Q257EK;
+				DEVELOPMENT_TEAM = 654X66AK24;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ProtonVPNStarter/Info.plist;
@@ -2962,7 +2960,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.protonvpn.ProtonVPNStarter;
+				PRODUCT_BUNDLE_IDENTIFIER = massawippi.protonvpn.ProtonVPNStarter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2981,7 +2979,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = J6S6Q257EK;
+				DEVELOPMENT_TEAM = 654X66AK24;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = ProtonVPNStarter/Info.plist;
@@ -2990,7 +2988,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.protonvpn.ProtonVPNStarter;
+				PRODUCT_BUNDLE_IDENTIFIER = massawippi.protonvpn.ProtonVPNStarter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3122,11 +3120,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ProtonVPN/ProtonVPN.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = J6S6Q257EK;
+				DEVELOPMENT_TEAM = 654X66AK24;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3141,10 +3139,10 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.protonvpn.mac;
+				PRODUCT_BUNDLE_IDENTIFIER = massawippi.protonvpn.mac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "ProtonVPN Mac Development PP";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ProtonVPN/ProtonVPN-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
@@ -3159,11 +3157,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ProtonVPN/ProtonVPN.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = J6S6Q257EK;
+				DEVELOPMENT_TEAM = 654X66AK24;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3178,10 +3176,10 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS";
-				PRODUCT_BUNDLE_IDENTIFIER = ch.protonvpn.mac;
+				PRODUCT_BUNDLE_IDENTIFIER = massawippi.protonvpn.mac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "ProtonVPN Mac Development PP";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ProtonVPN/ProtonVPN-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.2;

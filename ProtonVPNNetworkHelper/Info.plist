@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>ch.protonvpn.ProtonVPNNetworkHelper</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -11,6 +11,6 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0.101</string>
 	<key>CFBundleVersion</key>
-	<string>1131</string>
+	<string>1</string>
 </dict>
 </plist>

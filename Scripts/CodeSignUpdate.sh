@@ -7,13 +7,14 @@
 #  Copyright © 2018 Erik Berglund. All rights reserved.
 
 set -e
+set -x
 
 ###
 ### CUSTOM VARIABLES
 ###
 
-bundleIdentifierApplication="ch.protonvpn.mac"
-bundleIdentifierHelper="ch.protonvpn.ProtonVPNNetworkHelper"
+bundleIdentifierApplication="massawippi.protonvpn.mac"
+bundleIdentifierHelper="massawippi.protonvpn.ProtonVPNNetworkHelper"
 
 ###
 ### STATIC VARIABLES
@@ -59,20 +60,14 @@ function identifierHelper {
 
 function developerID {
     developmentTeamIdentifier="${DEVELOPMENT_TEAM}"
-    if ! [[ ${developmentTeamIdentifier} =~ ^[A-Z0-9]{10}$ ]]; then
-        printf "%s\n" "Invalid Development Team Identifier: ${developmentTeamIdentifier}"
-        exit 1
-    fi
+
 
     printf "%s" "certificate leaf[subject.OU] = ${developmentTeamIdentifier}"
 }
 
 function macDeveloper {
     macDeveloperCN="${EXPANDED_CODE_SIGN_IDENTITY_NAME}"
-    if ! [[ ${macDeveloperCN} =~ ^Mac\ Developer:\ .*\ \([A-Z0-9]{10}\)$ ]]; then
-        printf "%s\n" "Invalid Mac Developer CN: ${macDeveloperCN}"
-        exit 1
-    fi
+
 
     printf "%s" "certificate leaf[subject.CN] = \"${macDeveloperCN}\""
 }
@@ -93,14 +88,16 @@ function updateSMAuthorizedClients {
 ### MAIN SCRIPT
 ###
 
+echo "Xcode Action: ${ACTION}"
 case "${ACTION}" in
     "build")
+
         appString=$( identifierApplication )
         appString="${appString} and $( appleGeneric )"
         appString="${appString} and $( macDeveloper )"
         appString="${appString} and $( appleMacDeveloper )"
         appString="${appString} /* exists */"
-
+echo "${appString}"
         helperString=$( identifierHelper )
         helperString="${helperString} and $( appleGeneric )"
         helperString="${helperString} and $( macDeveloper )"
@@ -123,6 +120,8 @@ case "${ACTION}" in
         exit 1
     ;;
 esac
+
+echo "Xcode target: ${target}"
 
 case "${target}" in
     "helper")
